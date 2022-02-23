@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost";
-$username = "robin";
-$password = "Eas1R3dT34m";
+$username = "****";
+$password = "*****";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password);
@@ -20,3 +20,4 @@ if ($conn->query($sql) === TRUE) {
 
 $conn->close();
 ?>
+// Please do not put any credentials in our config files!!!!!!
